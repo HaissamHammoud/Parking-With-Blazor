@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -601370260,
+        "HashCode": 1267212308,
         "Kind": "Components.Component",
-        "Name": "ParkingCar.Pages.Error",
+        "Name": "ParkingCar.App",
         "AssemblyName": "ParkingCar",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Error"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ParkingCar.Pages.Error"
+          "Common.TypeName": "ParkingCar.App"
         }
       },
       {
-        "HashCode": 1016090645,
+        "HashCode": 1087312610,
         "Kind": "Components.Component",
-        "Name": "ParkingCar.Pages.Error",
+        "Name": "ParkingCar.App",
         "AssemblyName": "ParkingCar",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ParkingCar.Pages.Error"
+            "TagName": "ParkingCar.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ParkingCar.Pages.Error",
+          "Common.TypeName": "ParkingCar.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -74,6 +74,72 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ParkingCar.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 351870549,
+        "Kind": "Components.Component",
+        "Name": "ParkingCar.Pages.CreateCar",
+        "AssemblyName": "ParkingCar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CreateCar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ParkingCar.Pages.CreateCar"
+        }
+      },
+      {
+        "HashCode": 1406698212,
+        "Kind": "Components.Component",
+        "Name": "ParkingCar.Pages.CreateCar",
+        "AssemblyName": "ParkingCar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ParkingCar.Pages.CreateCar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ParkingCar.Pages.CreateCar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -601370260,
+        "Kind": "Components.Component",
+        "Name": "ParkingCar.Pages.Error",
+        "AssemblyName": "ParkingCar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Error"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ParkingCar.Pages.Error"
+        }
+      },
+      {
+        "HashCode": 1016090645,
+        "Kind": "Components.Component",
+        "Name": "ParkingCar.Pages.Error",
+        "AssemblyName": "ParkingCar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ParkingCar.Pages.Error"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ParkingCar.Pages.Error",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -140,39 +206,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ParkingCar.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 351870549,
-        "Kind": "Components.Component",
-        "Name": "ParkingCar.Pages.CreateCar",
-        "AssemblyName": "ParkingCar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CreateCar"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ParkingCar.Pages.CreateCar"
-        }
-      },
-      {
-        "HashCode": 1406698212,
-        "Kind": "Components.Component",
-        "Name": "ParkingCar.Pages.CreateCar",
-        "AssemblyName": "ParkingCar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ParkingCar.Pages.CreateCar"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ParkingCar.Pages.CreateCar",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -302,39 +335,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ParkingCar.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1267212308,
-        "Kind": "Components.Component",
-        "Name": "ParkingCar.App",
-        "AssemblyName": "ParkingCar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ParkingCar.App"
-        }
-      },
-      {
-        "HashCode": 1087312610,
-        "Kind": "Components.Component",
-        "Name": "ParkingCar.App",
-        "AssemblyName": "ParkingCar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ParkingCar.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ParkingCar.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
