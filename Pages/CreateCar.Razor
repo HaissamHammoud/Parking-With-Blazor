@@ -1,0 +1,26 @@
+@page "/Cars/Create"
+@inject NavigationManager navigationManager
+@inject HttpClient http
+@using Data.Domain
+<h1>Entrada</h1>
+
+<EditForm Model = "@car" OnValidSubmit = "@PostCar">
+    <div class = "form-group">
+        <label>Placa--</label>
+        <InputText @bind-Value ="@car.Plate"></InputText>
+    </div>
+    <div class = "form-group">
+        <label>Modelo</label>
+        <InputText @bind-Value ="@car.Model"></InputText>
+    </div>
+    <button class="btn btn-primary" @onclick="PostCar">Confirmar</button>
+</EditForm>
+@code {
+    private static readonly HttpClient HttpClient;
+    Car car = new Car();
+    async Task PostCar()
+    {
+        await http.PostJsonAsync("/Car/create", car );
+        navigationManager.NavigateTo("/Cars/Create");
+    }
+}
